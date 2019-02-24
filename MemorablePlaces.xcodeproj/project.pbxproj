@@ -14,6 +14,8 @@
 		49325F482221C5D5006CD2E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49325F462221C5D5006CD2E9 /* LaunchScreen.storyboard */; };
 		49325F532221C5D5006CD2E9 /* MemorablePlacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49325F522221C5D5006CD2E9 /* MemorablePlacesTests.swift */; };
 		49325F5E2221C5D5006CD2E9 /* MemorablePlacesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49325F5D2221C5D5006CD2E9 /* MemorablePlacesUITests.swift */; };
+		49325F6C2221D625006CD2E9 /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49325F6B2221D625006CD2E9 /* TitleViewController.swift */; };
+		49325F902222D908006CD2E9 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49325F8F2222D908006CD2E9 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		49325F592221C5D5006CD2E9 /* MemorablePlacesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemorablePlacesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49325F5D2221C5D5006CD2E9 /* MemorablePlacesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorablePlacesUITests.swift; sourceTree = "<group>"; };
 		49325F5F2221C5D5006CD2E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49325F6B2221D625006CD2E9 /* TitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
+		49325F8F2222D908006CD2E9 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 			children = (
 				49325F3D2221C5D4006CD2E9 /* AppDelegate.swift */,
 				49325F3F2221C5D4006CD2E9 /* ViewController.swift */,
+				49325F8F2222D908006CD2E9 /* Data.swift */,
 				49325F412221C5D4006CD2E9 /* Main.storyboard */,
+				49325F6B2221D625006CD2E9 /* TitleViewController.swift */,
 				49325F442221C5D5006CD2E9 /* Assets.xcassets */,
 				49325F462221C5D5006CD2E9 /* LaunchScreen.storyboard */,
 				49325F492221C5D5006CD2E9 /* Info.plist */,
@@ -258,6 +264,8 @@
 			files = (
 				49325F402221C5D4006CD2E9 /* ViewController.swift in Sources */,
 				49325F3E2221C5D4006CD2E9 /* AppDelegate.swift in Sources */,
+				49325F6C2221D625006CD2E9 /* TitleViewController.swift in Sources */,
+				49325F902222D908006CD2E9 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
